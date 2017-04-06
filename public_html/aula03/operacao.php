@@ -1,4 +1,4 @@
-<link rel="StyleSheet" type="text/css" href="../css/style.css">
+<link rel="StyleSheet" type="text/css" href="css/style.css">
 <?php
   class Operacao{
     var $result;

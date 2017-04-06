@@ -1,175 +1,142 @@
-h1, h2, h3, h4, h5, header, nav, footer, article div, aside div, footer a {
-    font - family: Courier New;
-    font - size: 42px;
-    font - weight: bold;
-    text - align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+nav,
+footer,
+article div,
+aside div,
+footer a {
+    font-family: Courier New;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
     color: white;
-    background - color: DodgerBlue;
+    background-color: DodgerBlue;
     margin: 80px;
-    border - width: 1px;
-    border - style: solid;
-    border - radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
 }
-
 HTML {
-    background - image: url("../imagens/fundo01.jpg");
-    background - repeat: no - repeat;
-    background - position: center center;
-    background - size: cover;
+    background-image: url("../imagens/fundo01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
-
 HEADER {
-    text - align: center;
-    font - size: 48px;
+    text-align: center;
+    font-size: 48px;
 }
-
 NAV {
     margin: 0px;
-    border - width: 0px;
-    border - radius: 0px;
-    background - color: white;
-    font - size: 0px;
-
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: white;
+    font-size: 0px;
 }
-
 NAV A {
-    border - width: 1px;
-    border - style: solid;
-    border - radius: 12px;
-    font - family: Lucida Console;
-    font - size: 30px;
-    font - weight: bold;
-    text - align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    font-family: Lucida Console;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
     color: white;
-    background - color: DodgerBlue;
+    background-color: DodgerBlue;
     margin: 80px;
     padding: 20px;
-    text - decoration: none;
-
+    text-decoration: none;
 }
-
 MAIN {
     display: table;
     margin: 0 auto 0 auto;
-    margin - top: 20px;
-    margin - bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-
 ARTICLE {
     margin: 0 auto 0 auto;
-    width: 50 % ;
-
+    width: 50%;
 }
 ARTICLE DIV {
     padding: 100px
 }
-
-
-
-ARTICLE DIV.text01 {
-    font - size: 18px;
+ARTICLE DIV .text01 {
+    font-size: 18px;
 }
-
 ASIDE {
-    margin - left: 65 % ;
-    margin - right: 20px;
-
-
+    margin-left: 65%;
+    margin-right: 20px;
 }
-
 ASIDE DIV {
     padding: 100px;
-    padding - bottom: 400px;
-
+    padding-bottom: 400px;
 }
-
 FOOTER {
-    margin - bottom: 20px;
-    margin - left: 0px;
-    margin - right: 0px;
-    border - width: 0px;
-    border - radius: 0px;
-    background - color: white;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: white;
     padding: 0px;
-    font - size: 0px;
-
-
+    font-size: 0px;
 }
-
 FOOTER a {
-    border - radius: 12px;
-    text - transform: uppercase;
-    font - size: 20px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 20px;
     padding: 20px;
-
 }
-
 IMG {
-    height: 50 % ;
-    width: 50 % ;
+    height: 50%;
+    width: 50%;
 }
-
 #aula02 {
     display: table;
     margin: 0 auto 0 auto;
-    margin - top: 20px;
-    margin - bottom: 30px;
-    background - color: LightSkyBlue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: LightSkyBlue;
     padding: 100px;
-    padding - bottom: 200px;
+    padding-bottom: 200px;
     color: black;
-    border - color: white;
-
+    border-color: white;
 }
-
 #aula02 img {
-    border - radius: 50 % ;
-    height: 80 % ;
-    width: 80 % ;
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
 }
-
-#aula02.tema {
-    font - size: 60px;
-    font - style: oblique;;
-    font - stretch: expanded;
+#aula02 .tema {
+    font-size: 60px;
+    font-style: oblique;
+    ;
+    font-stretch: expanded;
     color: CadetBlue;
 }
-
 #aula02 table {
-    border - width: 1px;
-    border - style: double;
-    border - radius: 1px;
-    border - color: SlateGray;
+    border-width: 1px;
+    border-style: double;
+    border-radius: 1px;
+    border-color: SlateGray;
 }
-
 .zebrada {
     margin: 0 auto 0 auto;
     color: white;
-    height: 100 % ;
-    width: 80 % ;
+    height: 100%;
+    width: 80%;
 }
-
 .zebrada thead tr td {
-    font - family: cursive;
-    background - color: Teal;
+    font-family: cursive;
+    background-color: Teal;
 }
-
-.zebrada tr: nth - child(odd) {
-    background - color: SlateGray;
+.zebrada tr:nth-child(odd) {
+    background-color: SlateGray;
 }
-
-.zebrada tr: nth - child(even) {
-    background - color: CadetBlue;
-}
-
-.ploc{
-  text-decoration: underline;
-}
-
-.ping{
-  font-weight: bold;
-}
-
-.pong{
-  font-style: italic;
+.zebrada tr:nth-child(even) {
+    background-color: CadetBlue;
 }
