@@ -161,3 +161,15 @@ IMG {
 .zebrada tr: nth - child(even) {
     background - color: CadetBlue;
 }
+
+.ploc{
+  text-decoration: underline;
+}
+
+.ping{
+  font-weight: bold;
+}
+
+.pong{
+  font-style: italic;
+}
